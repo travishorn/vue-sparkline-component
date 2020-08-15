@@ -1,6 +1,7 @@
 {
-  "name": "sparkboardtutorial",
+  "name": "vue-sparkline-component",
   "version": "0.1.0",
+  "description": "Basic sparkline component for Vue.js using D3.js",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -24,5 +25,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^1.19.1",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "author": "Travis Horn (https://travishorn.com)",
+  "license": "MIT"
 }

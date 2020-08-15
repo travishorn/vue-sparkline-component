@@ -1,28 +1,18 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div style="width:100px">
+    <SparkLine :data="[808, 1475, 1426, 1884, 1396]" />
+    <SparkLine :data="[3246, 1941, 2649, 1633, 1262]" />
+    <SparkLine :data="[190, 128, 209, 208, 116]" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import SparkLine from "./components/SparkLine.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    SparkLine
   }
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

@@ -27,5 +27,9 @@
     "vue-template-compiler": "^2.6.11"
   },
   "author": "Travis Horn (https://travishorn.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/travishorn/vue-sparkline-component"
+  },
+  "homepage": "https://travishorn.com/build-a-sparkline-vue-component-d3fdec764145"
 }

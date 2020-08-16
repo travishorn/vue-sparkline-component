@@ -1,6 +1,9 @@
 # Vue SparkLine Component
 
-Basic sparkline component for Vue.js using D3.js
+![Example](example-sparkline.png)
+
+Basic sparkline component for Vue.js using D3.js. [See how this component was
+built step-by-step.](https://travishorn.com/build-a-sparkline-vue-component-d3fdec764145)
 
 ## Project setup
 ```

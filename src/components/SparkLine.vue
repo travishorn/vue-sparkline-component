@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     plot() {
-      this.x.domain([0, this.data.length - 1 >= 4 ? 4 : this.data.length - 1]);
+      this.x.domain([0, this.data.length - 1]);
       this.y.domain(d3.extent(this.data));
       this.chart.select("path").attr("d", this.line(this.data));
     }

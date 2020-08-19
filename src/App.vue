@@ -16,26 +16,7 @@ export default {
   data() {
     return {
       sensors: [
-        {
-          name: "Alt Volts",
-          data: [
-            808,
-            1475,
-            1426,
-            1884,
-            1396,
-            1280,
-            1351,
-            832,
-            1372,
-            1449,
-            1425,
-            999,
-            1036,
-            1559,
-            854
-          ]
-        },
+        { name: "Alt Volts", data: [808, 1475, 1426, 1884, 1396] },
         { name: "Alt Amps", data: [3246, 1941, 2649, 1633, 1262] },
         { name: "Aux HP", data: [190, 128, 209, 208, 116] },
         { name: "Battery Volts", data: [73, 101, 49, 37, 62] },
